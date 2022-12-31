@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "title": "Apple iPhone14 pro",
+      "price": "999",
+      "id": 1
+    },
+    {
+      "title": "Apple MacBook pro",
+      "price": "1999",
+      "id": 2
+    },
+    {
+      "title": "Sony PS5",
+      "price": "499",
+      "id": 3
+    }
+  ]
+}
