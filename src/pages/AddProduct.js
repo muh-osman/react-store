@@ -28,20 +28,21 @@ const AddProduct = () => {
     .then(()=> navigate('/products'))
 
 
-
-
-
+    // Or
 
     // Add Data to "db.json" file
     // fetch('http://localhost:9000/products', {
     //   method: 'POST',
+    //   headers: {
+    //     "Content-Type": "Application/json",
+    //   },
     //   body: JSON.stringify({
     //     title,
-    //     price
-    //   })
+    //     price,
+    //   }),
     // })
     // .then((res)=> res.json())
-    // .then((data)=> console.log(data))
+    // .then(()=> navigate('/products'))
 
 
   }

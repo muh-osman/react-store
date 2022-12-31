@@ -26,7 +26,7 @@ const EditProduct = () => {
         // Prevent submit the form (reload the page)
         e.preventDefault()
 
-        // Sens Edited Data to the Server
+        // Send Edited Data to the Server
         await axios({
             method: 'put',
             url: `http://localhost:9000/products/${productID}`,
